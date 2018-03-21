@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+        <id>ImageMagickPHP71x86</id>
+        <title>Image Magick for PHP 7.1 x86</title>
+        <version>1.0.0</version>
+        <authors>Mariusz Soltys</authors>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/soltmar/azure-imagemagick-php71x86</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Adds PHP ImageMagick support to azure web app</description>
+        <iconUrl>http://www.imagemagick.org/download/images/wand.png</iconUrl>
+        <tags>magick image imagemagick soltmar</tags>
+    </metadata>
+    <files>
+        <file src="Content\**\*.*" target="Content" />
+    </files>
+</package>
