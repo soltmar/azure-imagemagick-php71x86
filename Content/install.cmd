@@ -6,4 +6,4 @@ IF EXIST "%PHP_INI_SCAN_DIR%" (
     cp "imagick.ini" "%PHP_INI_SCAN_DIR%"
 )
 
-unzip -qq lib\AzureImageMagick.zip -d d:\home\site\SiteExtensions\ImageMagickPHP71x86\lib
+unzip -qq lib\AzureImageMagick.zip -d d:\home\SiteExtensions\ImageMagickPHP71x86\lib

@@ -14,12 +14,12 @@ It contains:
 
 Install extension through KUDU SCM console
 
-Add following to APP Settings in Azure portal:
+If you already have custom PATH in your .xd file add below to it to make ImageMagick work:
 
-%PATH%;%HOME%\SiteExtensions\ImageMagickPHP71x86\Commands;
+%PATH%%HOME%\SiteExtensions\ImageMagickPHP71x86\lib;
 
-MAGICK_CODER_MODULE_PATH
-PHP_EXTENSIONS
-MAGICK_CODER_FILTER_PATH
-MAGICK_HOME
-MAGICK_CONFIGURE_PATH
+Environment Variables added by this package
+- MAGICK_CODER_MODULE_PATH
+- MAGICK_CODER_FILTER_PATH
+- MAGICK_HOME
+- MAGICK_CONFIGURE_PATH
