@@ -11,6 +11,7 @@
     <system.webServer>
         <runtime xdt:Transform="InsertIfMissing">
             <environmentVariables xdt:Transform="InsertIfMissing">
+                <add name="PATH" value="%PATH%%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_HOME" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_CODER_FILTER_PATH" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_CODER_MODULE_PATH" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
