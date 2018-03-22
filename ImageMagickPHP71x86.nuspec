@@ -8,7 +8,7 @@
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/soltmar/azure-imagemagick-php71x86</projectUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Adds PHP ImageMagick support to azure web app</description>
+        <description>Adds PHP ImageMagick support to azure web app as well as jpegoptim and pngquant</description>
         <iconUrl>http://www.imagemagick.org/download/images/wand.png</iconUrl>
         <tags>magick image imagemagick soltmar</tags>
     </metadata>
