@@ -1,22 +1,14 @@
+<?xml version="1.0"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
-    <system.applicationHost>
-        <sites>
-            <site name="%XDT_SCMSITENAME%" xdt:Locator="Match(name)">
-                <application path="/ImageMagickPHP71x86"  applicationPool="%XDT_APPPOOLNAME%" xdt:Transform="Insert">
-                    <virtualDirectory path="/" physicalPath="%XDT_EXTENSIONPATH%" />
-                </application>
-            </site>
-        </sites>
-    </system.applicationHost>
-    <system.webServer>
-        <runtime xdt:Transform="InsertIfMissing">
-            <environmentVariables xdt:Transform="InsertIfMissing">
-                <add name="PATH" value="%PATH%%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
+  <system.webServer>
+    <runtime xdt:Transform="InsertIfMissing">
+      <environmentVariables xdt:Transform="InsertIfMissing">
+                <add name="PATH" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib;%PATH%" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_HOME" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_CODER_FILTER_PATH" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_CODER_MODULE_PATH" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
                 <add name="MAGICK_CONFIGURE_PATH" value="%HOME%\SiteExtensions\ImageMagickPHP71x86\lib\" xdt:Locator="Match(name)" xdt:Transform="InsertIfMissing" />
-            </environmentVariables>
-        </runtime>
-    </system.webServer>
+      </environmentVariables>
+    </runtime>
+  </system.webServer>
 </configuration>

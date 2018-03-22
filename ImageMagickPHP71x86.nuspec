@@ -3,7 +3,7 @@
     <metadata>
         <id>ImageMagickPHP71x86</id>
         <title>Image Magick for PHP 7.1 x86</title>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <authors>Mariusz Soltys</authors>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>https://github.com/soltmar/azure-imagemagick-php71x86</projectUrl>
